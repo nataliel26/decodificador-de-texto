@@ -1,0 +1,22 @@
+:root {
+    background-color: #008080;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: space;
+    gap: 80px;
+    padding: 100px;
+}
+
+
+.text-input {
+    font-size: 32px;
+    background-color: #fdffff;
+    text-align: left;
+    height: 600px;
+    width: 680px;
+}
