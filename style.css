@@ -15,8 +15,14 @@
 
 .text-input {
     font-size: 32px;
-    background-color: #fdffff;
+    background-color: #008080;
     text-align: left;
     height: 600px;
     width: 680px;
+}
+
+.text-output {
+    font-size: 28px;
+    background-color: #fdffff;
+    height: 600px;
 }
