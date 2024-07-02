@@ -18,15 +18,15 @@
     <main>
       <div class="content">
         <div class="text-input-box">
-          <textarea class="text-input" placeholder="Digite seu texto"></textarea>
+          <textarea class="text-input" id="inputText" placeholder="Digite seu texto"></textarea>
           <p>Apenas letras minúsculas e sem acento</p>
           <div class="buttons">
-          <button type="button" id="criptografar">Criptografar</button> <button type="button" id="descriptografar">Descriptografar</button>
+          <button onclick="encrypt()" type="button" id="criptografar">Criptografar</button> <button onclick="decrypt()" type="button" id="descriptografar">Descriptografar</button>
         </div>
         </div>
         <div class="text-output-box">
-          <textarea class="text-output"></textarea>
-          <div id="no-message">
+          <textarea class="text-output" id="outputText" readonly></textarea>
+          <div id="noMessage">
           <h2>Nenhuma mensagem <br> encontrada</h2>
           <br>
           <p>Digite um texto que você gostaria de <br> criptografar ou descriptografar.</p>
