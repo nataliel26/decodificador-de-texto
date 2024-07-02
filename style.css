@@ -4,6 +4,10 @@
     color: #000;
 }
 
+.text-input-box {
+    border-style: none;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -12,17 +16,47 @@
     padding: 100px;
 }
 
+.buttons {
+    color: #818181;
+    position: absolute;
+    left: 43%;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    color: #818181
+}
 
 .text-input {
     font-size: 32px;
     background-color: #008080;
     text-align: left;
     height: 600px;
-    width: 680px;
+    width: 540px;
 }
 
 .text-output {
+    position: relative;
     font-size: 28px;
     background-color: #fdffff;
     height: 600px;
+}
+
+.content
+.text-output-box 
+h2 {
+    text-align: center;
+    position: absolute;
+    align-items: space;
+    left: 60%;
+    top: 20%;
+}
+
+.content
+.text-output-box
+p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
 }
