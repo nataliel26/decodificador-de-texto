@@ -31,8 +31,8 @@ body {
     text-decoration: none;
 }
 
-.buttons:hover {
-    color: #818181
+.buttons:active {
+    color: #818181;
 }
 
 .text-input {
