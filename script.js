@@ -27,3 +27,17 @@ function decrypt() {
 function hideText() {
     document.getElementById("noMessage").classList.add("hidden");
 }
+
+function copyText() {
+    let outputText = getElementById("outputText");
+    navigator.clipboard.writeText(outputText.value);
+}
+
+function updateClock() {
+    const now = new Date();
+    const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit'});
+    document.getElementById('clock').textContent = time;
+}
+
+setInterval(updateClock, 60000);
+updateClock();
